@@ -1,0 +1,11 @@
+Command Prompt Termux:
+- pkg update && pkg upgrade
+- pkg install nodejs cloudflared
+- termux-setup-storage
+- cd /storage/emulated/0/Download/Facebook/
+- npm install --no-bin-links
+- clear
+- npm start
+- BUKA SESI BARU DI TERMUX, CARANYA GESER LAYAR DARI POJOK KIRI ATAS KE KANAN
+- cloudflared tunnel --url http://127.0.0.1:3000
+- CARI LINK HTTPS NYA
